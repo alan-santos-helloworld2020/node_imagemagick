@@ -8,7 +8,7 @@ const fs = require('fs');
 
 router.get("/",(req,res)=>{
     res.render("home",{
-        title:'Home'
+        title:'Onload'
     });
 })
 
